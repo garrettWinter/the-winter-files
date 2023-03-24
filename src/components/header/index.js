@@ -5,8 +5,8 @@ import Navigation from '../navigation';
 const Header = () => {
   return (
     <header> 
-        <p>Header! Pulling from header component</p>
-        <p><Navigation/></p>
+        <div>Place Logo here!</div>
+        <div><Navigation/></div>
     </header>
   );
 };

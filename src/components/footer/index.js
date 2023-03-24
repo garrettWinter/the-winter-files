@@ -2,7 +2,10 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer> Footer! Pulling from footer component</footer>
+    <footer> 
+        <div>Footer! Pulling from footer component</div>
+        <div>Contact Logos (gitHub) (LinkedIn) (Stackoverflow?)</div>
+    </footer>
   );
 };
 

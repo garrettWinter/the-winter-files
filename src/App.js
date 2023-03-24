@@ -4,6 +4,7 @@ import './App.css';
 // import Home from './pages/Home';
 
 import Header from './components/header';
+import PageBody from './components/pageBody'
 import Footer from './components/footer';
 
 
@@ -11,8 +12,8 @@ function App() {
   return (
     <div className="App">
       <div><Header/></div>
-      <div>BODY CONTENT!</div>
-      <div><Footer/></div>
+      <div><br></br><PageBody/></div>
+      <div><br></br><Footer/></div>
     </div>
   );
 }
