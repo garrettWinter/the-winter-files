@@ -1,12 +1,9 @@
 import React from 'react';
 
-import Navigation from '../navigation';
-
 const Header = () => {
-  return (
+    return (
     <header> 
         <div>Place Logo here!</div>
-        <div><Navigation/></div>
     </header>
   );
 };
