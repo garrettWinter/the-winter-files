@@ -6,6 +6,16 @@ import gitHub from '../../../src/assets/images/github.png'
 import linkedIn from '../../../src/assets/images/linkedin.png'
 import stackOverflow from '../../../src/assets/images/stack-overflow.png'
 
+const styles = {
+  footerText: {
+    color: 'white',
+    fontSize: 25
+  },
+  logos: {
+    padding: "10px 20px 10px 20px"
+
+  }
+}
 
 const Footer = () => {
   return (
@@ -14,12 +24,13 @@ const Footer = () => {
         bgcolor: '#000000',
       }}>
         <footer>
-          <div>Footer! Pulling from footer component</div>
+        <div style={styles.footerText}> Clink a logo below to see my profile.</div>          
           <div>
-            <img src={gitHub} className="tbd" alt="Link to gitHub profile" />
-            <img src={linkedIn} className="tbd" alt="Link to linkedIn profile" />
-            <img src={stackOverflow} className="tbd" alt="Link to stackOverflow profile" />
+            <a href='https://github.com/garrettWinter' target='_blank' rel="noreferrer"><img src={gitHub} style={styles.logos} alt="Link to gitHub profile" /></a>
+            <a href='https://www.linkedin.com/in/garrett-winter-a684a094/' target='_blank' rel="noreferrer"><img src={linkedIn} style={styles.logos} alt="Link to linkedIn profile" /></a>
+            <a href='https://stackoverflow.com/users/20218517/garrettwinter' target='_blank' rel="noreferrer"><img src={stackOverflow} style={styles.logos} alt="Link to stackOverflow profile" /></a>
           </div>
+          <div style={styles.footerText}> Garrett Winter © Copyright 2023, with no rights reserved.</div>
         </footer>
       </Box>
     </Container>

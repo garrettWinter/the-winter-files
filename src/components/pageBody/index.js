@@ -6,10 +6,10 @@ import Navigation from '../navigation';
 import Footer from '../footer';
 
 //Importing Pages for renderPage
-import AboutMe from '../../pages/aboutMe'
-import ContactMe from '../../pages/contactMe'
-import Portfolio from '../../pages/portfolio'
-import Resume from '../../pages/resume'
+import AboutMe from '../pages/aboutMe'
+import ContactMe from '../pages/contactMe'
+import Portfolio from '../pages/portfolio'
+import Resume from '../pages/resume'
 
 
 const PageBody = () => {
