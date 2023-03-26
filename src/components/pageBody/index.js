@@ -1,10 +1,16 @@
 import React, { useState } from 'react';
 
+//Importing Components
+import Header from '../header';
+import Navigation from '../navigation';
+import Footer from '../footer';
+
+//Importing Pages for renderPage
 import AboutMe from '../../pages/aboutMe'
 import ContactMe from '../../pages/contactMe'
 import Portfolio from '../../pages/portfolio'
 import Resume from '../../pages/resume'
-import Navigation from '../navigation';
+
 
 const PageBody = () => {
   const [currentPage, setCurrentPage] = useState('AboutMe')
@@ -28,10 +34,18 @@ const PageBody = () => {
 
   return (
     <div>
-      <nav>
-        < Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-      </nav>
-      {renderPage()}
+      <header>
+        <div><Header /></div>
+        <nav>
+          < Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+        </nav>
+      </header>
+      <main>
+        {renderPage()}
+      </main>
+      <footer>
+      <div><br></br><Footer/></div>
+      </footer>
     </div>
   );
 };

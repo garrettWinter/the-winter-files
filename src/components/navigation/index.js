@@ -1,8 +1,14 @@
 import React from 'react';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
 
 const Navigation = ( {currentPage, handlePageChange} ) => {
 
   return (
+    <Container maxWidth="full" disableGutters={true}>
+    <Box sx={{ 
+      bgcolor: '#000000',
+   }}>
     <ul>
       <li>
         <a
@@ -41,7 +47,9 @@ const Navigation = ( {currentPage, handlePageChange} ) => {
         </a>
       </li>
     </ul>
-  );
+    </Box>
+  </Container>
+);
 };
 
 export default Navigation;
