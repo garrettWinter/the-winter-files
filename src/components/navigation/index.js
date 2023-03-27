@@ -2,6 +2,29 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 
+
+const styles = {
+  ul: {
+    padding: 0,
+    margin: 0,
+    display: 'inline-flex',
+  },
+  navLinks: {
+    listStyleType: 'none',
+    padding: '0px 15px 10px 5px'
+  },
+  activeLink:{
+    fontSize: 25,
+    color: '#f9a33f'
+  },
+  inactiveLink:{
+    fontSize: 25,
+    color: 'white'
+  }
+
+}
+
+
 const Navigation = ( {currentPage, handlePageChange} ) => {
 
   return (
@@ -9,39 +32,39 @@ const Navigation = ( {currentPage, handlePageChange} ) => {
     <Box sx={{ 
       bgcolor: '#000000',
    }}>
-    <ul>
-      <li>
-        <a
+    <ul style={styles.ul}>
+      <li style={styles.navLinks}>
+        <a 
           href="#AboutMe"
           onClick={() => handlePageChange('AboutMe')}
-        // className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'} // Need to update to support my css styles
+          style={currentPage === 'AboutMe' ? styles.activeLink : styles.inactiveLink}
         >
           About Me
         </a>
       </li>
-      <li>
+      <li style={styles.navLinks}>
         <a
           href="#Portfolio"
           onClick={() => handlePageChange('Portfolio')}
-        // className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'} // Need to update to support my css styles
+          style={currentPage === 'Portfolio' ? styles.activeLink : styles.inactiveLink}
         >
           Portfolio
         </a>
       </li>
-      <li>
+      <li style={styles.navLinks}>
         <a
           href="#ContactMe"
           onClick={() => handlePageChange('ContactMe')}
-        // className={currentPage === 'ContactMe' ? 'nav-link active' : 'nav-link'} // Need to update to support my css styles
+          style={currentPage === 'ContactMe' ? styles.activeLink : styles.inactiveLink}
         >
           Contact Me
         </a>
       </li>
-      <li>
+      <li style={styles.navLinks}>
         <a
           href="#Resume"
           onClick={() => handlePageChange('Resume')}
-        // className={currentPage === 'ContactMe' ? 'nav-link active' : 'nav-link'} // Need to update to support my css styles
+          style={currentPage === 'Resume' ? styles.activeLink : styles.inactiveLink}
         >
           Resume
         </a>

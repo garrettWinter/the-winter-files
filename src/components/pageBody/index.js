@@ -11,6 +11,12 @@ import ContactMe from '../pages/contactMe'
 import Portfolio from '../pages/portfolio'
 import Resume from '../pages/resume'
 
+const styles = {
+  header: {
+    margin: 0,
+    padding: 0,
+  },
+}
 
 const PageBody = () => {
   const [currentPage, setCurrentPage] = useState('AboutMe')
@@ -34,7 +40,7 @@ const PageBody = () => {
 
   return (
     <div>
-      <header>
+      <header style={styles.header}>
         <div><Header /></div>
         <nav>
           < Navigation currentPage={currentPage} handlePageChange={handlePageChange} />

@@ -13,8 +13,7 @@ const styles = {
   },
   logos: {
     padding: "10px 20px 10px 20px"
-
-  }
+  },
 }
 
 const Footer = () => {
@@ -22,8 +21,11 @@ const Footer = () => {
     <Container maxWidth="full" disableGutters={true}>
       <Box sx={{
         bgcolor: '#000000',
+        position: 'fixed',
+        bottom: 0,
+        width: '100%'
       }}>
-        <footer>
+        <footer >
         <div style={styles.footerText}> Clink a logo below to see my profile.</div>          
           <div>
             <a href='https://github.com/garrettWinter' target='_blank' rel="noreferrer"><img src={gitHub} style={styles.logos} alt="Link to gitHub profile" /></a>
