@@ -6,7 +6,7 @@ import PageBody from './components/pageBody'
 function App() {
   return (
     <div className="App">    
-      <div className="123"><PageBody/></div>
+      <div><PageBody/></div>
     </div>
   );
 }

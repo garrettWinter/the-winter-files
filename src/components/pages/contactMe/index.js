@@ -49,7 +49,6 @@ return (
     <Box>
   <div>This is pulling from the ContactMe Page</div>
   <div>
-      <p>Hello {fullName}</p>
       <form className="form">
       <input
           value={fullName}

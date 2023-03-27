@@ -11,7 +11,7 @@ export default function Header() {
           height: '300px',
           paddingTop: 2,
           paddingBottom: 2 }}>
-        <img src={logo} className="tbd" alt="Garrett Winters - Full Stack Developer - Logo of a head with gears" title='Garrett Winters - Full Stack Developer - Logo of a head with gears'/>
+        <img src={logo} alt="Garrett Winter Full Stack Developer - Logo of a head with gears" title='Garrett Winters - Full Stack Developer - Logo of a head with gears'/>
         </Box>
       </Container>
   );
