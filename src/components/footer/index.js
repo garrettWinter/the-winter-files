@@ -21,7 +21,7 @@ const Footer = () => {
     <Container maxWidth="full" disableGutters={true}>
       <Box sx={{
         bgcolor: '#000000',
-        position: 'fixed',
+        position: 'absolute',
         bottom: 0,
         width: '100%'
       }}>

@@ -37,51 +37,54 @@ const ContactMe = () => {
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
-  
-  // If everything goes according to plan, we want to clear out the input after a successful registration.
-  setFullName('');
-  setMessage('');
-  setEmail('');
-};
 
-return (
-  <Container>
-    <Box>
-  <div>This is pulling from the ContactMe Page</div>
-  <div>
-      <form className="form">
-      <input
-          value={fullName}
-          name="userName"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="First and Last Name"
-        />
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="Email Address"
-        />
-        <input
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          type="message"
-          placeholder="Message for Garrett"
-        />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
-      </form>
-      {errorMessage && (
+    // If everything goes according to plan, we want to clear out the input after a successful registration.
+    setFullName('');
+    setMessage('');
+    setEmail('');
+  };
+
+  return (
+    <Container maxWidth="full" disableGutters={true}>
+      <Box sx={{
+        textAlign: 'left',
+        padding: '10px 10%'
+      }}>
+        <h2>Contact Me</h2>
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <form className="form">
+            <input
+              value={fullName}
+              name="userName"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="First and Last Name"
+            />
+            <input
+              value={email}
+              name="email"
+              onChange={handleInputChange}
+              type="email"
+              placeholder="Email Address"
+            />
+            <input
+              value={message}
+              name="message"
+              onChange={handleInputChange}
+              type="message"
+              placeholder="Message for Garrett"
+            />
+            <button type="button" onClick={handleFormSubmit}>Submit</button>
+          </form>
+          {errorMessage && (
+            <div>
+              <p className="error-text">{errorMessage}</p>
+            </div>
+          )}
         </div>
-      )}
-    </div>
-  </Box>
-  </Container>
-);
+      </Box>
+    </Container>
+  );
 };
 
 export default ContactMe;

@@ -49,9 +49,7 @@ const PageBody = () => {
       <main>
         {renderPage()}
       </main>
-      <footer>
-      <div><br></br><Footer/></div>
-      </footer>
+      <Footer/>
     </div>
   );
 };
