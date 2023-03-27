@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/the-winter-files/static/css/main.abd64e84.css",
+    "main.js": "/the-winter-files/static/js/main.e3fd6b85.js",
+    "static/media/Raw-Logox300.png": "/the-winter-files/static/media/Raw-Logox300.f92229ffbbfbd9880eec.png",
+    "static/media/Garrett200x200.jpg": "/the-winter-files/static/media/Garrett200x200.fdfa8c230d932d2076e3.jpg",
+    "index.html": "/the-winter-files/index.html",
+    "main.abd64e84.css.map": "/the-winter-files/static/css/main.abd64e84.css.map",
+    "main.e3fd6b85.js.map": "/the-winter-files/static/js/main.e3fd6b85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.e3fd6b85.js"
+  ]
+}
