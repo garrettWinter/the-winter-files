@@ -2,7 +2,7 @@ const projectDetails = [
     {
         projectName: 'Team Project - Meal Recipe Generator',
         description: 'A Github deployed app to help generate meal ideas based on user inputs of dish type, meal type cook time and even ingredients',
-        image: './assets/images/Meal-Generator.png',
+        image: 'assets/images/Meal-Generator.png',
         altText: 'An image show casing the Team Project - Meal Recipe Generator',
         titleText: 'Team Project - Meal Recipe Generator',
         gitHubLink: 'https://github.com/garrettWinter/meal-recipe-generator/',
