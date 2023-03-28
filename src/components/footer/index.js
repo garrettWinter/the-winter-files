@@ -1,7 +1,9 @@
+//Importing React Components for this component to work as desired.
 import React from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 
+// Importing Icon Images
 import gitHub from '../../../src/assets/images/github.png'
 import linkedIn from '../../../src/assets/images/linkedin.png'
 import stackOverflow from '../../../src/assets/images/stack-overflow.png'
@@ -16,13 +18,12 @@ const styles = {
   },
 }
 
+// Creation of the footer component that will be exported.
 const Footer = () => {
   return (
     <Container maxWidth="full" disableGutters={true}>
       <Box sx={{
         bgcolor: '#000000',
-        // position: 'relative',
-        // bottom: 0,
         width: '100%',
         marginTop: '15px'
       }}>

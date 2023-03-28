@@ -1,6 +1,9 @@
+//Importing React Components so this component will work as desired.
 import React from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
+
+// Importing the logo that will be used in the header.
 import logo from '../../../src/assets/images/Raw-Logox300.png'
 
 export default function Header() {

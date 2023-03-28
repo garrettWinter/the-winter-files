@@ -1,6 +1,6 @@
-// import logo from './logo.svg';
 import './App.css';
 
+//Importing the pageBody component so this can rendered in applicatiom.
 import PageBody from './components/pageBody'
 
 function App() {

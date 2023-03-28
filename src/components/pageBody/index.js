@@ -1,6 +1,7 @@
+//Importing React Components
 import React, { useState } from 'react';
 
-//Importing Components
+//Importing Custom Components
 import Header from '../header';
 import Navigation from '../navigation';
 import Footer from '../footer';
@@ -29,6 +30,7 @@ const styles = {
 const PageBody = () => {
   const [currentPage, setCurrentPage] = useState('AboutMe')
 
+  // This function will look at the current page and then have that page be loaded.
   const renderPage = () => {
     if (currentPage === 'AboutMe') {
       return <AboutMe />;

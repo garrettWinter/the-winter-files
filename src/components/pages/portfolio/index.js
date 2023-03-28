@@ -1,3 +1,4 @@
+//Importing the needed react components to support the portfolio Page
 import React from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
@@ -9,14 +10,6 @@ import ProjectCard from '../../projectCard';
 const Portfolio = () => {
     return (
         <div>
-            {/* <Container maxWidth="full" disableGutters={true}>
-                <Box sx={{
-                    textAlign: 'left',
-                    padding: '10px 10%',
-                }}>
-                    <h2  >Portfolio</h2>
-                </Box>
-            </Container> */}
             <Container sx={{ paddingTop: '15px' }}>
                 <Box sx={{ flexgrow: 1 }}>
                     <h2  >Portfolio</h2>

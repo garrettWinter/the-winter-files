@@ -1,3 +1,4 @@
+//Importing the needed react components to support the projectCard
 import React from 'react';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -6,11 +7,12 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
+// Defining style to remove the underline from the links on the buttons.
 const styles = {
   link: {
     textDecoration: 'none'
   }
-}
+};
 
 export default function ProjectCard({projectDetails}) {
   return (
@@ -36,4 +38,4 @@ export default function ProjectCard({projectDetails}) {
       </CardActions>
     </Card>
   );
-}
+};

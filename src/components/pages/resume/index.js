@@ -1,14 +1,14 @@
+//Importing the needed react components to support the resume Page
 import React from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 
+// Importing the Resume file so this can be rendered on the page.
 import resumePDF from "../../../assets/pdf/Garrett_Resume.pdf";
 
 const styles = {
   downloadLink: {
     fontSize: '20px',
-    // fontWeight: 'bold'
-
   },
 }
 const Resume = () => {
@@ -33,7 +33,6 @@ const Resume = () => {
             <li>React</li>
           </ul>
         </div>
-
         <div>
           <h3>Back End Proficiencies</h3>
           <ul>

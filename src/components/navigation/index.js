@@ -1,8 +1,9 @@
+//Importing needed React Components for the component to work properly
 import React from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 
-
+// Defining a custom styles object
 const styles = {
   ul: {
     padding: 0,
@@ -21,10 +22,9 @@ const styles = {
     fontSize: 25,
     color: 'white'
   }
-
 }
 
-
+// Creation of the Navigation Component that will be exported.
 const Navigation = ( {currentPage, handlePageChange} ) => {
 
   return (

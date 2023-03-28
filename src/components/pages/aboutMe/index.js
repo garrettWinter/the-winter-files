@@ -1,7 +1,9 @@
+//Importing the needed react components to support the about me Page
 import React from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 
+// Importing the profile picture for use in the application
 import garrettPicture from '../../../../src/assets/images/Garrett200x200.jpg'
 
 const styles = {
