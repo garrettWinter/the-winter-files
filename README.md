@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# the-winter-files
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Badges
 
-## Available Scripts
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+Below are short descriptions explaining the what, why, and how of this project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- What was your motivation?
+    - To create a website that allows people and organizations what I am able to accomplish as a full stack developer.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- What problem does this application solve?
+    - This application is a react based website showcasing my knowledge and skills as a full stack developer.
 
-### `npm test`
+- What did you learn while working on this?
+    - How to create a react application.
+    - How to style a react application using Material UI.
+    - How to use useState to be able to control which "Page" a user sees without having to perform a full page load.
+    - How to effectively use grids in Material UI to support a responsive webpage.
+  
+## Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ - [Badges](#badges)
+ - [Description](#description)
+ - [Usage](#usage)
+ - [License](#license)
+ - [Features](#features)
+ - [Future](#future-development)
+ - [Attributions](#attributions)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
+  
+Here are some details on how this application can be used:
+  - View the website to learn more about the author, and view my portfolio to see team and individual projects that I have worked on.
+  - This website can be accessed by going to: https://garrettwinter.github.io/the-winter-files/
+      
+Below a screenshot(s) of the application:
+  - ![Portfolio Page](TBD)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The MIT license is being used for this application. For more information you can go to the following URL.
+  - https://opensource.org/licenses/MIT
 
-### `npm run eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Some of the main features of this application are:
+  - Built using the React Framework.
+  - Styled using the CSS library Material UI.
+  - Responsive design for multiple viewports.
+  - Use of react components to create the Header, Footer, Navigation, and project cards.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Future-Development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Below are some addtional items that could be added to this project to further improve its quaility.
+  - Add a custom favicon
+  - Get buttons to sit on bottom of card on portfolio page.
+  - Add Icons to project cards (JS, React, CSS.....)
+  - Make it so the footer changes to a columnn once px drops below 504.
+  - Update resume download link to be a button instead.
+  - Work to have text start halfway up the profile picture, then have the text wrap below the image.
+  - Add overlay with Attrbiutions for icons
+  - Add more descriptive meta tags and alt tags to improve its search engine optimization (SEO).
+  - Font size could be increased slightly to improve readability
+  - Find areas on the site that could have animations / effects (include ability to toggle these on/off)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Attributions:
 
-## Learn More
+Below is attributions for some icons that were used within this project.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="https://www.flaticon.com/free-icons/stack-overflow" title="stack overflow icons">Stack overflow icons created by Pixel perfect - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a>
