@@ -53,11 +53,11 @@ const Navigation = ( {currentPage, handlePageChange} ) => {
       </li>
       <li style={styles.navLinks}>
         <a
-          href="#ContactMe"
-          onClick={() => handlePageChange('ContactMe')}
-          style={currentPage === 'ContactMe' ? styles.activeLink : styles.inactiveLink}
+          href="#Contact"
+          onClick={() => handlePageChange('Contact')}
+          style={currentPage === 'Contact' ? styles.activeLink : styles.inactiveLink}
         >
-          Contact Me
+          Contact
         </a>
       </li>
       <li style={styles.navLinks}>

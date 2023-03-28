@@ -19,7 +19,7 @@ const projectDetails = [
     },
     {
         projectName: "Indivdual Project - Winter's Weather Dashboard",
-        description: 'A Github deployed app to look up 5 day forecasts by entering a city.',
+        description: 'A Github deployed app that allows the user to look up 5 day forecasts by entering a city. It will save your searched cities locally for ease of use.',
         image: 'assets/images/Winters-Weather-Dashboard.png',
         altText: "An image show casing the Indivdual Project - Winter's Weather Dashboard",
         titleText: "Indivdual Project - Winter's Weather Dashboard",
@@ -28,7 +28,7 @@ const projectDetails = [
     },
     {
         projectName: "Indivdual Project - Garrett's Todo List",
-        description: 'A Heroku deployed app to that allows users to be able to keep track of notes and tasks online.',
+        description: 'A Heroku deployed app to that allows users to be able to keep track of notes and tasks online. Data is stored online to allow the user store and access notes from any device.',
         image: 'assets/images/Todo-Tracker.png',
         altText: "An image show casing the Indivdual Project - Garrett's Todo List",
         titleText: "Indivdual Project - Garrett's Todo List",

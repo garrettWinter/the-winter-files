@@ -5,19 +5,31 @@ import Grid from '@mui/material/Grid';
 import projectDetails from '../../../projectDetails';
 import ProjectCard from '../../projectCard';
 
+
 const Portfolio = () => {
     return (
-        <Container sx={{ paddingTop: '15px'}}>
-            <Box sx={{ flexgrow: 1 }}>
-                <Grid container spacing={2}>
-                    {projectDetails.map(projectDetail => (
-                    <Grid item xs={12} md={6}>
-                        <ProjectCard projectDetails={projectDetail} />
+        <div>
+            {/* <Container maxWidth="full" disableGutters={true}>
+                <Box sx={{
+                    textAlign: 'left',
+                    padding: '10px 10%',
+                }}>
+                    <h2  >Portfolio</h2>
+                </Box>
+            </Container> */}
+            <Container sx={{ paddingTop: '15px' }}>
+                <Box sx={{ flexgrow: 1 }}>
+                    <h2  >Portfolio</h2>
+                    <Grid container spacing={2} sx={{justifyContent: 'space-around'}}>
+                        {projectDetails.map(projectDetail => (
+                            <Grid item xs={12} md={6} lg={4}>
+                                <ProjectCard projectDetails={projectDetail} />
+                            </Grid>
+                        ))}
                     </Grid>
-                ))}
-                </Grid>
-            </Box>
-        </Container>
+                </Box>
+            </Container>
+        </div>
     );
 };
 

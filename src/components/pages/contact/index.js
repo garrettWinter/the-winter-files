@@ -6,7 +6,7 @@ import SendIcon from '@mui/icons-material/Send';
 
 import emailValidation from '../../../utils/helpers';
 
-const ContactMe = () => {
+const Contact = () => {
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -75,7 +75,7 @@ const ContactMe = () => {
         textAlign: 'left',
         padding: '10px 10%',
       }}>
-        <h2>Contact Me</h2>
+        <h2>Contact</h2>
         <div style={styles.contactBox}>
           <form className="form">
             <div style={styles.formFieldDiv}>
@@ -124,4 +124,4 @@ const ContactMe = () => {
   );
 };
 
-export default ContactMe;
+export default Contact;

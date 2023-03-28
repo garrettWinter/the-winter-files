@@ -7,7 +7,7 @@ import Footer from '../footer';
 
 //Importing Pages for renderPage
 import AboutMe from '../pages/aboutMe'
-import ContactMe from '../pages/contactMe'
+import Contact from '../pages/contact'
 import Portfolio from '../pages/portfolio'
 import Resume from '../pages/resume'
 
@@ -33,8 +33,8 @@ const PageBody = () => {
     if (currentPage === 'AboutMe') {
       return <AboutMe />;
     }
-    if (currentPage === 'ContactMe') {
-      return <ContactMe />;
+    if (currentPage === 'Contact') {
+      return <Contact />;
     }
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
