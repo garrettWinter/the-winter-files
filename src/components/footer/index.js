@@ -21,9 +21,10 @@ const Footer = () => {
     <Container maxWidth="full" disableGutters={true}>
       <Box sx={{
         bgcolor: '#000000',
-        position: 'absolute',
+        position: 'relative',
         bottom: 0,
-        width: '100%'
+        width: '100%',
+        marginTop: '15px'
       }}>
         <footer >
         <div style={styles.footerText}> Clink a logo below to see my profile.</div>          

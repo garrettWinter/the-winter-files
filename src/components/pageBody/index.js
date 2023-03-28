@@ -16,6 +16,14 @@ const styles = {
     margin: 0,
     padding: 0,
   },
+  flex:{
+    display: 'flex',
+    flexDirection: 'column',
+    minHeight: '100vh'
+  },
+  main:{
+    flexGrow: 1
+  }
 }
 
 const PageBody = () => {
@@ -39,14 +47,14 @@ const PageBody = () => {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div style={styles.flex}>
       <header style={styles.header}>
         <div><Header /></div>
         <nav>
           < Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
         </nav>
       </header>
-      <main>
+      <main style={styles.main}>
         {renderPage()}
       </main>
       <Footer/>
