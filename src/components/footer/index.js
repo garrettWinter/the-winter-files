@@ -21,8 +21,8 @@ const Footer = () => {
     <Container maxWidth="full" disableGutters={true}>
       <Box sx={{
         bgcolor: '#000000',
-        position: 'relative',
-        bottom: 0,
+        // position: 'relative',
+        // bottom: 0,
         width: '100%',
         marginTop: '15px'
       }}>

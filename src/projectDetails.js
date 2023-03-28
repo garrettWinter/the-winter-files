@@ -11,7 +11,7 @@ const projectDetails = [
     {
         projectName: "Team Project - Sal's Online Movie Store",
         description: 'A Heroku deployed app to mock a online store to purchase movies that allows users to create accounts, add products to shopping cart, checkout and view order history.',
-        image: 'tbd',
+        image: 'assets/images/Online-Movie-Store-Homepage.png',
         altText: "An image show casing the Team Project - Sal's Online Movie Store",
         titleText: "Team Project - Sal's Online Movie Store",
         gitHubLink: 'https://github.com/garrettWinter/online-movie-store',
@@ -20,7 +20,7 @@ const projectDetails = [
     {
         projectName: "Indivdual Project - Winter's Weather Dashboard",
         description: 'A Github deployed app to look up 5 day forecasts by entering a city.',
-        image: 'tbd',
+        image: 'assets/images/Winters-Weather-Dashboard.png',
         altText: "An image show casing the Indivdual Project - Winter's Weather Dashboard",
         titleText: "Indivdual Project - Winter's Weather Dashboard",
         gitHubLink: 'https://github.com/garrettWinter/winters-weather-dashboard/',
@@ -29,7 +29,7 @@ const projectDetails = [
     {
         projectName: "Indivdual Project - Garrett's Todo List",
         description: 'A Heroku deployed app to that allows users to be able to keep track of notes and tasks online.',
-        image: 'tbd',
+        image: 'assets/images/Todo-Tracker.png',
         altText: "An image show casing the Indivdual Project - Garrett's Todo List",
         titleText: "Indivdual Project - Garrett's Todo List",
         gitHubLink: 'https://github.com/garrettWinter/garretts-todo-list/',
@@ -38,7 +38,7 @@ const projectDetails = [
     {
         projectName: "Indivdual Project - Winter's Blogs",
         description: 'A Heroku deployed app that allows users create accounts and then to be able to create posts and add comments to others posts.',
-        image: 'tbd',
+        image: 'assets/images/Blogs-Homepage.png',
         altText: "An image show casing the Indivdual Project - Winter's Blogs",
         titleText: "Indivdual Project - Winter's Blogs",
         gitHubLink: 'https://github.com/garrettWinter/winters-blogs/',
@@ -47,7 +47,7 @@ const projectDetails = [
     {
         projectName: 'Indivdual Project - Javascript Code Quiz',
         description: 'A Github deployed app to quiz users with 10 questions about basic Javascript. A score is calculated based on the number of right questions and time remaining.',
-        image: 'tbd',
+        image: 'assets/images/JavaScript-Code-Quiz.png',
         altText: 'An image show casing the Indivdual Project - Javascript Code Quiz',
         titleText: 'Indivdual Project - Javascript Code Quiz',
         gitHubLink: 'https://github.com/garrettWinter/javascript-code-quiz/',
