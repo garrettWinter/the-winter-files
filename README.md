@@ -38,7 +38,7 @@ Here are some details on how this application can be used:
   - This website can be accessed by going to: https://garrettwinter.github.io/the-winter-files/
       
 Below a screenshot(s) of the application:
-  - ![Portfolio Page](TBD)
+  - ![Portfolio Page](https://garrettwinter.github.io/the-winter-files/assets/images/React-Profile-Page.png)
 
 ## License
 
