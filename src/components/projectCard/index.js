@@ -6,6 +6,12 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
+const styles = {
+  link: {
+    textDecoration: 'none'
+  }
+}
+
 export default function ProjectCard({projectDetails}) {
   return (
     <Card sx={{ height: '100%' }}>
@@ -24,9 +30,9 @@ export default function ProjectCard({projectDetails}) {
             {projectDetails.description}
         </Typography>
       </CardContent>
-      <CardActions sx = {{alignItems: 'centered', display: 'flex', justifyContent: 'center' }}>
-        <a href={projectDetails.gitHubLink} target="_blank" rel="noreferrer"> <Button variant="contained" size="small">gitHub Repo</Button></a>
-        <a href={projectDetails.deployedLink} target="_blank" rel="noreferrer"> <Button variant="contained" size="small">Deployed Link</Button></a>
+      <CardActions sx = {{ display: 'flex', justifyContent: 'center' }}>
+        <a href={projectDetails.gitHubLink} style={styles.link} target="_blank" rel="noreferrer"> <Button variant="contained" size="small">gitHub Repo</Button></a>
+        <a href={projectDetails.deployedLink} style={styles.link} target="_blank" rel="noreferrer"> <Button variant="contained" size="small">Deployed Link</Button></a>
       </CardActions>
     </Card>
   );
