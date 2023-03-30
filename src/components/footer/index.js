@@ -31,7 +31,7 @@ const Footer = () => {
         <div style={styles.footerText}> Clink a logo below to see my profile.</div>          
           <div>
             <a href='https://github.com/garrettWinter' target='_blank' rel="noreferrer"><img src={gitHub} style={styles.logos} alt="Link to gitHub profile" /></a>
-            <a href='https://www.linkedin.com/in/garrett-winter-a684a094/' target='_blank' rel="noreferrer"><img src={linkedIn} style={styles.logos} alt="Link to linkedIn profile" /></a>
+            <a href='https://www.linkedin.com/in/garrett-winter/' target='_blank' rel="noreferrer"><img src={linkedIn} style={styles.logos} alt="Link to linkedIn profile" /></a>
             <a href='https://stackoverflow.com/users/20218517/garrettwinter' target='_blank' rel="noreferrer"><img src={stackOverflow} style={styles.logos} alt="Link to stackOverflow profile" /></a>
           </div>
           <div style={styles.footerText}> Garrett Winter © Copyright 2023, with no rights reserved.</div>
