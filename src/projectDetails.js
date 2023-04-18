@@ -53,15 +53,15 @@ const projectDetails = [
         gitHubLink: 'https://github.com/garrettWinter/winters-blogs/',
         deployedLink: 'https://winters-blogs.herokuapp.com/',
     },
-    {
-        projectName: 'Indivdual Project - Javascript Code Quiz',
-        description: 'A Github deployed app to quiz users with 10 questions about basic Javascript. A score is calculated based on the number of right questions and time remaining.',
-        image: 'assets/images/JavaScript-Code-Quiz.png',
-        altText: 'An image show casing the Indivdual Project - Javascript Code Quiz',
-        titleText: 'Indivdual Project - Javascript Code Quiz',
-        gitHubLink: 'https://github.com/garrettWinter/javascript-code-quiz/',
-        deployedLink: 'https://garrettwinter.github.io/javascript-password-generator-build/',
-    },
+    // {
+    //     projectName: 'Indivdual Project - Javascript Code Quiz',
+    //     description: 'A Github deployed app to quiz users with 10 questions about basic Javascript. A score is calculated based on the number of right questions and time remaining.',
+    //     image: 'assets/images/JavaScript-Code-Quiz.png',
+    //     altText: 'An image show casing the Indivdual Project - Javascript Code Quiz',
+    //     titleText: 'Indivdual Project - Javascript Code Quiz',
+    //     gitHubLink: 'https://github.com/garrettWinter/javascript-code-quiz/',
+    //     deployedLink: 'https://garrettwinter.github.io/javascript-password-generator-build/',
+    // },
 ]
 
 export default projectDetails;
