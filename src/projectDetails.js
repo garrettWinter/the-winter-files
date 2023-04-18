@@ -1,5 +1,14 @@
 const projectDetails = [
     {
+        projectName: 'Team Project - TaskMaster',
+        description: 'A MERN stack todo application to create lists of tasks and subtasks.',
+        image: 'assets/images/TaskMaster-Homepage.png',
+        altText: 'An image show casing the Team Project - TaskMaster',
+        titleText: 'Team Project - TaskMaster',
+        gitHubLink: 'https://github.com/Wir3s/taskmaster',
+        deployedLink: 'https://sal-task-master.herokuapp.com/',
+    },
+    {
         projectName: 'Team Project - Meal Recipe Generator',
         description: 'A Github deployed app to help generate meal ideas based on user inputs of dish type, meal type cook time and even ingredients',
         image: 'assets/images/Meal-Generator.png',
