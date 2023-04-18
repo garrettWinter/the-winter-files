@@ -1,7 +1,7 @@
 const projectDetails = [
     {
         projectName: 'Team Project - TaskMaster',
-        description: 'A MERN stack todo application to create lists of tasks and subtasks.',
+        description: 'A MERN stack todo application to create lists of tasks and subtasks. Application will allow users to share lists with other users, for collaboration.',
         image: 'assets/images/TaskMaster-Homepage.png',
         altText: 'An image show casing the Team Project - TaskMaster',
         titleText: 'Team Project - TaskMaster',
